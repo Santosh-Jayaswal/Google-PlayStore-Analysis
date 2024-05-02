@@ -3,6 +3,9 @@
 ### Introduction
 The goal of this study is to give app developers useful information about the Google PlayStore dataset so that they can make smart choices about how to make apps and run their businesses. The dataset, which comes from Kaggle, has a lot of information about apps on the Google Play Store, like their categories, ratings, reviews, prices, and the dates and times they were last changed.
 
+### Preprocessing Instruction
+This dataset contains several inconsistent and null values in its feature columns, which need to be addressed before proceeding to the analysis stage. Therefore, I utilized the Python pandas library to clean the dataset and subsequently stored the cleaned data in a MySQL database for further analysis.
+
 ### Key Insights
 1)  **App Category Analysis**: Our research shows clear patterns within app groups, which helps us understand what users want and what the market needs. One example is the Family group, which has a lot of apps and makes up about 18.17 percent of the market. In the same way, the Gaming area is very popular, with 10.56% of the market. By knowing about these trends, app makers can make sure that their apps are in line with what users want, which makes them more competitive in the market.
 2)  **Top Applications**: Looking at the best apps in a lot of different popular areas can teach you a lot about what makes an app work and how happy its users are. "Six Pack in 30 Days - Abs Workout" in the Health & Fitness category and "PewDiePie's Tuber Simulator" in the Entertainment category are two well-known examples. By looking at the best-performing apps, developers can find the best ways to make the user experience better.
